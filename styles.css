@@ -169,6 +169,13 @@
 
 
 }
+@media screen and (max-width: 415px) {
+    .girl img {
+        margin-left: 6%;
+    }
+
+
+}
 
 @media screen and (max-width: 767px) {
     .circle {
@@ -220,7 +227,7 @@
     }
 
     .girl img {
-        margin-left: 13%;
+        margin-left: 1%;
     }
 
     .testimonials-content {
@@ -269,8 +276,28 @@
         z-index: 1;
     }
 
- 
+    .girl img {
+        margin-left: 0%;
+    }
 }
+@media screen and (max-width: 414px) {
+    .circle {
+        width: 324px;
+        height: 312px;
+        background-color: #39db4a;
+        border-radius: 50%;
+        position: absolute;
+        top: 63%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .girl img {
+        margin-left: 0%;
+    }
+}
+
 
 /* 2 */
 
