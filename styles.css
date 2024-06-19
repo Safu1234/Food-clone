@@ -302,8 +302,8 @@
     }
     @media (max-width: 375px) {
         .circle2 {
-            width: 233px !important;
-            height: 198px !important;
+            width: 269px !important;
+            height: 235px !important;
             background-color: rgb(57, 219, 74) !important;
             border-radius: 158px 140px 41px 41px !important;
             position: absolute !important;
