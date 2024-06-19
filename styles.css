@@ -202,6 +202,7 @@
     .girl img {
         margin-left: 13%;
     }
+ 
 }
 
 @media screen and (max-width: 575px) {
@@ -263,23 +264,6 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    .circle {
-        width: 324px;
-        height: 312px;
-        background-color: #39db4a;
-        border-radius: 50%;
-        position: absolute;
-        top: 63%;
-        left: 55%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-    }
-
-    .girl img {
-        margin-left: 0%;
-    }
-}
 @media screen and (max-width: 414px) {
     .circle {
         width: 324px;
@@ -296,9 +280,40 @@
     .girl img {
         margin-left: 0%;
     }
+    
 }
 
 
+@media (max-width: 375px) {
+    .circle {
+        width: 324px;
+        height: 312px;
+        background-color: #39db4a;
+        border-radius: 50%;
+        position: absolute;
+        top: 63%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .girl img {
+        margin-left: 0%;
+    }
+    @media (max-width: 375px) {
+        .circle2 {
+            width: 233px !important;
+            height: 198px !important;
+            background-color: rgb(57, 219, 74) !important;
+            border-radius: 158px 140px 41px 41px !important;
+            position: absolute !important;
+            top: 72% !important;
+            left: 53% !important;
+            transform: translate(-50%, -50%) !important;
+            z-index: -1 !important;
+        }
+    }
+}
 /* 2 */
 
 /* 3 */
